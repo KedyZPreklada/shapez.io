@@ -78,14 +78,14 @@ global:
         space: SPACE
 demoBanners:
     title: Demo verze
-    intro: Získejte plnou verzi pro odemknutí všech funkcí a obsahu!
+    intro: Získejte placenou verzi na steamu pro odemknutí všech funkcí a obsahu!
 mainMenu:
     play: Hrát
     continue: Pokračovat
-    newGame: Nová hra
+    newGame: Nová továrná
     changelog: Seznam změn
     subreddit: Reddit
-    importSavegame: Importovat
+    importSavegame: Importovat továrnu!
     openSourceHint: Tato hra je open source!
     discordLink: Oficiální Discord Server
     helpTranslate: Pomozte přeložit hru!
@@ -143,7 +143,7 @@ dialogs:
     featureRestriction:
         title: Demo verze
         desc: Zkoušíte použít funkci (<feature>), která není v demo verzi. Zvažte
-            pořízení plné verze pro kompletní zážitek!
+            pořízení placené verze pro kompletní zážitek!
     oneSavegameLimit:
         title: Omezené ukládání
         desc: Ve demo verzi můžete mít pouze jednu uloženou hru. Odstraňte stávající
@@ -373,7 +373,7 @@ ingame:
                 title: Tmavý mód
                 desc: Přestanou vás bolet oči!
             support:
-                title: Podpořte mě
+                title: Podpořte mě! 🥰🥰
                 desc: Vyvíjím to ve svém volném čase!
 shopUpgrades:
     belt:
@@ -446,18 +446,18 @@ buildings:
             description: Smíchá dvě barvy.
     painter:
         default:
-            name: Barvič
+            name: Barvič objektů
             description: Obarví celý tvar v levém vstupu barvou z pravého vstupu.
         double:
-            name: Barvič (dvojnásobný)
+            name: Barvič objektů (dvojnásobný)
             description: Obarví tvary z levých vstupů barvou z horního vstupu.
         quad:
-            name: Barvič (čtyřnásobný)
+            name: Barvič objektů (čtyřnásobný)
             description: Umožňuje obarvit každou čtvrtinu tvaru individuálně. Jen čtvrtiny
                 se vstupy barev s <strong>logickým signálem</strong> na vrstvě
                 kabelů budou obarveny!
         mirrored:
-            name: Barvič
+            name: Barvič objektů
             description: Obarví celý tvar v levém vstupu barvou z pravého vstupu.
     trash:
         default:
@@ -532,7 +532,7 @@ buildings:
             description: Připojte signál k třídění tvarů a barev.
     display:
         default:
-            name: Display
+            name: Displej
             description: Připojte signál a zobrazte jej na displeji - může to být tvar nebo
                 barva.
     reader:
