@@ -82,13 +82,13 @@ demoBanners:
 mainMenu:
     play: Hrát
     continue: Pokračovat
-    newGame: Nová hra
+    newGame: Nová továrna
     changelog: Seznam změn
     subreddit: Reddit
-    importSavegame: Importovat
+    importSavegame: Importovat hru
     openSourceHint: Tato hra je open source!
     discordLink: Oficiální Discord Server
-    helpTranslate: Pomozte přeložit hru!
+    helpTranslate: Pomožte přeložit hru!
     madeBy: Vytvořil <author-link>
     browserWarning: Promiňte, ale víme, že hra poběží pomalu ve vašem prohlížeči!
         Pořiďte si samostatnou verzi nebo si stáhněte Google Chrome pro
@@ -110,7 +110,7 @@ dialogs:
         showUpgrades: Zobrazit vylepšení
         showKeybindings: Zobrazit klávesové zkratky
     importSavegameError:
-        title: Chyba Importu
+        title: Chyba Importu Hry
         text: "Nepovedlo se importovat vaši uloženou hru:"
     importSavegameSuccess:
         title: Uložená hra importována
